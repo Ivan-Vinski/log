@@ -1,0 +1,21 @@
+{
+    "name": "factory/log",
+    "description": "Logging",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Vinski",
+            "email": "ivan.vinski@factory.hr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" ">= 7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Factory\\Log\\": "src/"
+        }
+    }
+}
